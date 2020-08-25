@@ -107,3 +107,8 @@
 		}
 	});
 }());
+let initfont= 24
+
+fontSizeIncrease = (element) =>{
+	element.style.fontSize = initfont++ +"px"
+}
