@@ -107,8 +107,10 @@
 		}
 	});
 }());
-let initfont= 10
 
-fontSizeIncrease = (element) =>{
-	element.style.fontSize = initfont++ +"px"
+
+let initfont = 12
+
+fontSizeIncrease = (element) => {
+	element.style.fontSize = initfont++ +'px'
 }
