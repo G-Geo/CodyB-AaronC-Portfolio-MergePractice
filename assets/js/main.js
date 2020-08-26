@@ -107,3 +107,11 @@
 		}
 	});
 }());
+
+
+let initfont = 12
+
+fontSizeIncrease = (element) => {
+	element.style.fontSize = initfont++ +'px'
+}
+
